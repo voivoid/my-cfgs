@@ -11,3 +11,5 @@
     prompt = false
 [difftool "meld"]
     cmd = meld "$LOCAL" "$REMOTE"
+[commit]
+	gpgsign = true
