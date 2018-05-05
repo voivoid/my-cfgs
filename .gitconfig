@@ -1,0 +1,12 @@
+[user]
+	email = voivoid@mail.ru
+	name = Sergey Ivanov
+[core]
+	editor = emacs
+
+[diff]
+    tool = meld
+[difftool]
+    prompt = false
+[difftool "meld"]
+    cmd = meld "$LOCAL" "$REMOTE"
