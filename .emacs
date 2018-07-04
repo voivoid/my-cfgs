@@ -6,6 +6,9 @@
 (setq make-backup-files nil)
 (setq auto-save-default nil)
 
+(menu-bar-mode -1)
+(tool-bar-mode -1)
+
 (global-set-key "\C-x\C-b" 'buffer-menu)
 
 (require 'package) ;; You might already have this line
