@@ -27,3 +27,6 @@
 (custom-set-faces
  '(whitespace-tab ((t (:background "red")))))
 (global-whitespace-mode)
+
+
+(setq cmake-tab-width 4)
