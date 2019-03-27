@@ -17,7 +17,7 @@
 (require 'package) ;; You might already have this line
 (package-initialize) ;; You might already have this line
 
-(setq default-frame-alist '((font . "Noto Sans Mono-12")))
+(setq default-frame-alist '((font . "Inconsolata-14")))
 
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
