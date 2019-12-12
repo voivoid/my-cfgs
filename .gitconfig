@@ -1,7 +1,6 @@
 [user]
 	email = voivoid@mail.ru
 	name = Sergey Ivanov
-	signingkey = C182D54F525BFD45
 [core]
 	editor = emacs
 
@@ -11,5 +10,3 @@
     prompt = false
 [difftool "meld"]
     cmd = meld "$LOCAL" "$REMOTE"
-[commit]
-	gpgsign = true
