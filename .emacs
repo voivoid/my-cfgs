@@ -9,6 +9,8 @@
 (setq indent-tabs-mode nil) ; And force use of spaces
 (setq-default indent-tabs-mode nil)
 
+(set-default 'truncate-lines t)
+
 (menu-bar-mode -1)
 (tool-bar-mode -1)
 
