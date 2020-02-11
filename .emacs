@@ -19,8 +19,6 @@
 (require 'package) ;; You might already have this line
 (package-initialize) ;; You might already have this line
 
-(setq default-frame-alist '((font . "Inconsolata-14")))
-
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 
@@ -29,6 +27,7 @@
 ; Highlight tabs and trailing whitespace everywhere
 (setq whitespace-style '(face trailing tabs))
 (custom-set-faces
+ '(default ((t (:family "JetBrains Mono" :foundry "JB  " :slant normal :weight normal :height 151 :width normal))))
  '(whitespace-tab ((t (:background "red")))))
 (global-whitespace-mode)
 
