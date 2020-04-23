@@ -3,6 +3,7 @@
 	name = Sergey Ivanov
 [core]
 	editor = emacs
+	autocrlf = input
 
 [diff]
     tool = meld
