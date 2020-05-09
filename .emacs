@@ -4,8 +4,8 @@
 (setq make-backup-files nil) ; stop creating backup~ files
 (setq auto-save-default nil) ; stop creating #autosave# files
 
-(setq c-basic-offset 4)     ; indents 4 chars
-(setq tab-width 4)          ; and 4 char wide for TAB
+(setq c-basic-offset 2)     ; indents 4 chars
+(setq tab-width 2)          ; and 4 char wide for TAB
 (setq indent-tabs-mode nil) ; And force use of spaces
 (setq-default indent-tabs-mode nil)
 
