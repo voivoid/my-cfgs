@@ -1,9 +1,9 @@
 [user]
-	email = voivoid@mail.ru
-	name = Sergey Ivanov
+        email = voivoid@mail.ru
+        name = Sergey Ivanov
 [core]
-	editor = emacs
-	autocrlf = input
+        editor = emacs
+        autocrlf = input
 
 [diff]
     tool = meld
@@ -11,3 +11,15 @@
     prompt = false
 [difftool "meld"]
     cmd = meld "$LOCAL" "$REMOTE"
+
+[merge]
+    tool = meld
+[mergetool "meld"]
+    cmd = meld "$LOCAL" "$MERGED" "$REMOTE" --output "$MERGED"
+
+[advice]
+	addIgnoredFile = false
+[pull]
+	ff = only
+[merge]
+	conflictstyle = diff3
